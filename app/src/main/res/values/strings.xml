@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WalmartMovieChallenge</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="menu_search">Search</string>
+    <string name="api_key">0dadcf4266b00367f5cf262e3906b57d</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="movie_hint">Movie name</string>
+    <string name="movie_search">Movie Search</string>
+    <string name="no_results_found">No results found</string>
+</resources>
+

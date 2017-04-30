@@ -1,0 +1,65 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:divider="?android:attr/listDivider"
+        android:showDividers="middle"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/description_text"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textSize="14sp"
+            android:textColor="@color/primary_text"
+            android:paddingRight="16dp"
+            tools:text="Bahman (Parviz Parastui) returns from Europe to put his late father's house in order.
+            The maid, Pari (Mahtab Nasirpour), hired by Bahman's cousin, arrives to help him out.
+            Hired against his will, he finds her intrusion annoying. When Pari needs his help, the isolated
+            Bahman must decide whether to get involved. Pari’s life is complicated and her friendship
+            with the young, unruly Samaneh, may be her downfall. Soheila Golestani's directorial debut
+            is a beautifully shot and thought-provoking triumph."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!-- release_date can be empty string in database ex. Do Dil -->
+        <RelativeLayout
+            android:id="@+id/date_layout"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/date_icon"
+                android:alpha="0.5"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_today_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                tools:text="2008-07-05"
+                android:id="@+id/date_text"
+                android:textSize="14sp"
+                android:paddingStart="6dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/primary_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/date_icon" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
